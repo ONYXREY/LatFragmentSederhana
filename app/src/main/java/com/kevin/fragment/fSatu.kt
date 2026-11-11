@@ -39,7 +39,7 @@ class fSatu : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val _btnOpenSatu = view.findViewById<Button>(R.id.btnFragment1)
+        val _btnOpenSatu = view.findViewById<Button>(R.id.btnOpenSatu)
 
         _btnOpenSatu.setOnClickListener {
             val fragmentManager = parentFragmentManager
