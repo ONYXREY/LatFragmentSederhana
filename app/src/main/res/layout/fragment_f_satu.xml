@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fSatu">
+    tools:context=".fSatu"
+    android:background="#98C09C"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="FRAGMENT SATU"
+        android:id="@+id/tvJudul"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnOpenSatu"
+        android:text="OPEN FRAGMENT DUA"/>
 
-</FrameLayout>
+</LinearLayout>
