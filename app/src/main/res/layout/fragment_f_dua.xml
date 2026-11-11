@@ -13,7 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="FRAGMENT DUA"
-        android:id="@+id/tvJudul"/>
+        android:gravity="center"
+        android:id="@+id/tvJudul"
+        android:textStyle="bold"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
