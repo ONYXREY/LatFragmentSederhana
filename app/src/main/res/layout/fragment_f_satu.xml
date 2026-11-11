@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".fSatu"
     android:background="#98C09C"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:orientation="vertical">
 
 
     <TextView
